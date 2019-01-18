@@ -1,9 +1,20 @@
 h1.name {
   color: blue;
   text-align: center;
+  font-family: Arizonia;
+  font-size: 55px;
 }
+
 body {
+  margin: 0px;
+  padding: 0px;
   background-image: url("/home/hc-22/Documents/Carlosf96.github.io/images/background.png");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
 }
 .content{
   color: blue;
@@ -28,4 +39,7 @@ body {
 }
 .float-button:hover {
   right: -5px
+}
+.buttons{
+  text-align: center;
 }
