@@ -1,5 +1,31 @@
 h1.name {
   color: blue;
   text-align: center;
-  font-family: cursive;
+}
+body {
+  background-image: url("/home/hc-22/Documents/Carlosf96.github.io/images/background.png");
+}
+.content{
+  color: blue;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.responsive{
+   max-width: 100%;
+  height: auto; 
+}
+.float-button{
+  position: center;
+  right: -77px
+  top: 250px;
+  transition: all 0.2 ease-in 2s
+  z-index: 9999;
+  cursor: pointer;
+}
+.float-button:hover {
+  right: -5px
 }
