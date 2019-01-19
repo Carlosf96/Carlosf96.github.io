@@ -16,6 +16,10 @@ body {
   background-size: cover;
 
 }
+.hname{
+  text-align: center;
+  font-size: 44px;
+}
 .content{
   color: blue;
 }
